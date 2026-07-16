@@ -28,7 +28,7 @@ public class FrameworkContextListener implements ServletContextListener {
             throw new RuntimeException("Erreur lors du chargement des mappings au demarrage", e);
         }
     }
-
+/*test context */
     @Override
     public void contextDestroyed(ServletContextEvent event) {
         event.getServletContext().removeAttribute(MAPPING_MAP_ATTRIBUTE);
