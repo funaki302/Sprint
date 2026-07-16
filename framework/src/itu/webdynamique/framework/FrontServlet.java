@@ -49,7 +49,7 @@ public class FrontServlet extends HttpServlet {
         System.out.println("[Framework] prefixe = " + prefixe);
         System.out.println("[Framework] suffixe = " + suffixe);
     }
-
+/* */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
