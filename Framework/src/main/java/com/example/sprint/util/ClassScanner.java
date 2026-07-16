@@ -42,7 +42,7 @@ public class ClassScanner {
     }
     
     /**
-     * Récupère toutes les classes d'un package
+     * Recupere toutes les classes d'un package
      */
     private static List<String> getClasses(String packageName) throws IOException {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
